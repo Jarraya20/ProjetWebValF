@@ -1,0 +1,25 @@
+<<!DOCTYPE html>
+<html lang="zxx">
+<head>
+	<script src="script.js"></script>
+
+    <p>Ajout d'une compétiton</p>
+	<form method="POST" name="comp" class="sav-form" action="add-comp.php" enctype="multipart/form-data">
+						<label for="nom">Nom de la compétiton</label>
+						<input type="text" name="nom"><br><br>
+						<label for="nomc">Nom du complexe sportif</label>
+						<input type="text" name="nomc"><br><br>
+						<label for="heure">Heure</label>
+						<input type="number" name="heure"><br><br>
+						<label for="date">Date</label>
+						<input type="date" name="date"><br><br>
+						<label for="cout">Coût</label>
+						<input type="number" name="cout" min="1000" max="2500" step="500"><br><br>
+						<label for="type">Type</label>
+						<input type="checkbox" name="type">National
+						<input type="checkbox" name="type">International<br><br>
+						<br><br><input type="submit" class="site-btn">
+					</form>
+</head>
+</html>
+					
